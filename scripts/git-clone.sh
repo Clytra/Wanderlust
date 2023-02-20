@@ -1,5 +1,5 @@
 #!/bin/bash
-REPOSITORIES=(Wanderlust.Services.Travels)
+REPOSITORIES=(Wanderlust.Services.Travels, Wanderlust.Services.Customers)
 
 for REPOSITORY in ${REPOSITORIES[*]}
 do

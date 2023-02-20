@@ -3,15 +3,33 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wanderlust.Services.Travels.Api", "..\Wanderlust.Services.Travels\src\Wanderlust.Services.Travels.Api\Wanderlust.Services.Travels.Api.csproj", "{D0580E46-29F9-489B-AED4-C28D03331508}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wanderlust.Services.Travels.Api", "..\Wanderlust.Services.Travels\src\Wanderlust.Services.Travels.Api\Wanderlust.Services.Travels.Api.csproj", "{D0580E46-29F9-489B-AED4-C28D03331508}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wanderlust.Services.Travels.Core", "..\Wanderlust.Services.Travels\src\Wanderlust.Services.Travels.Core\Wanderlust.Services.Travels.Core.csproj", "{265154B2-0B88-42A7-AB2E-5A3C2F606DFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wanderlust.Services.Travels.Core", "..\Wanderlust.Services.Travels\src\Wanderlust.Services.Travels.Core\Wanderlust.Services.Travels.Core.csproj", "{265154B2-0B88-42A7-AB2E-5A3C2F606DFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wanderlust.Services.Travels.Infrastructure", "..\Wanderlust.Services.Travels\src\Wanderlust.Services.Travels.Infrastructure\Wanderlust.Services.Travels.Infrastructure.csproj", "{B015F1E9-BD90-405A-B1C9-56506F4D1873}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wanderlust.Services.Travels.Infrastructure", "..\Wanderlust.Services.Travels\src\Wanderlust.Services.Travels.Infrastructure\Wanderlust.Services.Travels.Infrastructure.csproj", "{B015F1E9-BD90-405A-B1C9-56506F4D1873}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wanderlust.Services.Travels.Application", "..\Wanderlust.Services.Travels\src\Wanderlust.Services.Travels.Application\Wanderlust.Services.Travels.Application.csproj", "{BA5607DD-8F27-40CD-95D8-A63FAC202635}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wanderlust.Services.Travels.Application", "..\Wanderlust.Services.Travels\src\Wanderlust.Services.Travels.Application\Wanderlust.Services.Travels.Application.csproj", "{BA5607DD-8F27-40CD-95D8-A63FAC202635}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Wanderlust.Services.Travels", "Wanderlust.Services.Travels", "{718D2D0F-7E9B-46D7-9DE7-44AB22224516}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AACC3365-1427-41D6-8DBB-E164276C25C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4AB85E40-CDAF-4F94-AF32-0986A5D6521D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Wanderlust.Services.Members", "Wanderlust.Services.Members", "{BE0535F1-ACDB-4B68-8B2D-5D3429011A71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9018B43D-BC07-4B69-9186-4878872D9D1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D87C00AC-8D0B-4DC3-9C6F-782B2FB6863A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wanderlust.Services.Members.Api", "..\Wanderlust.Services.Members\src\Wanderlust.Services.Members.Api\Wanderlust.Services.Members.Api.csproj", "{35B40D70-63B0-4FF1-BDC6-ED0D1ECDF67C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wanderlust.Services.Members.Application", "..\Wanderlust.Services.Members\src\Wanderlust.Services.Members.Application\Wanderlust.Services.Members.Application.csproj", "{92DF76A2-3EE1-4E94-A913-2047D54DDBC8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wanderlust.Services.Members.Core", "..\Wanderlust.Services.Members\src\Wanderlust.Services.Members.Core\Wanderlust.Services.Members.Core.csproj", "{99AC9587-82E3-440B-AEAD-930BA35A8A6C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wanderlust.Services.Members.Infrastructure", "..\Wanderlust.Services.Members\src\Wanderlust.Services.Members.Infrastructure\Wanderlust.Services.Members.Infrastructure.csproj", "{515905EC-87A5-4471-82FA-831DAB57B31D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,15 +53,39 @@ Global
 		{BA5607DD-8F27-40CD-95D8-A63FAC202635}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA5607DD-8F27-40CD-95D8-A63FAC202635}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA5607DD-8F27-40CD-95D8-A63FAC202635}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35B40D70-63B0-4FF1-BDC6-ED0D1ECDF67C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35B40D70-63B0-4FF1-BDC6-ED0D1ECDF67C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35B40D70-63B0-4FF1-BDC6-ED0D1ECDF67C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35B40D70-63B0-4FF1-BDC6-ED0D1ECDF67C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92DF76A2-3EE1-4E94-A913-2047D54DDBC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92DF76A2-3EE1-4E94-A913-2047D54DDBC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92DF76A2-3EE1-4E94-A913-2047D54DDBC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92DF76A2-3EE1-4E94-A913-2047D54DDBC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99AC9587-82E3-440B-AEAD-930BA35A8A6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99AC9587-82E3-440B-AEAD-930BA35A8A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99AC9587-82E3-440B-AEAD-930BA35A8A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99AC9587-82E3-440B-AEAD-930BA35A8A6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{515905EC-87A5-4471-82FA-831DAB57B31D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{515905EC-87A5-4471-82FA-831DAB57B31D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{515905EC-87A5-4471-82FA-831DAB57B31D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{515905EC-87A5-4471-82FA-831DAB57B31D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{D0580E46-29F9-489B-AED4-C28D03331508} = {718D2D0F-7E9B-46D7-9DE7-44AB22224516}
-		{265154B2-0B88-42A7-AB2E-5A3C2F606DFB} = {718D2D0F-7E9B-46D7-9DE7-44AB22224516}
-		{B015F1E9-BD90-405A-B1C9-56506F4D1873} = {718D2D0F-7E9B-46D7-9DE7-44AB22224516}
-		{BA5607DD-8F27-40CD-95D8-A63FAC202635} = {718D2D0F-7E9B-46D7-9DE7-44AB22224516}
+		{D0580E46-29F9-489B-AED4-C28D03331508} = {AACC3365-1427-41D6-8DBB-E164276C25C6}
+		{265154B2-0B88-42A7-AB2E-5A3C2F606DFB} = {AACC3365-1427-41D6-8DBB-E164276C25C6}
+		{B015F1E9-BD90-405A-B1C9-56506F4D1873} = {AACC3365-1427-41D6-8DBB-E164276C25C6}
+		{BA5607DD-8F27-40CD-95D8-A63FAC202635} = {AACC3365-1427-41D6-8DBB-E164276C25C6}
+		{AACC3365-1427-41D6-8DBB-E164276C25C6} = {718D2D0F-7E9B-46D7-9DE7-44AB22224516}
+		{4AB85E40-CDAF-4F94-AF32-0986A5D6521D} = {718D2D0F-7E9B-46D7-9DE7-44AB22224516}
+		{9018B43D-BC07-4B69-9186-4878872D9D1E} = {BE0535F1-ACDB-4B68-8B2D-5D3429011A71}
+		{D87C00AC-8D0B-4DC3-9C6F-782B2FB6863A} = {BE0535F1-ACDB-4B68-8B2D-5D3429011A71}
+		{35B40D70-63B0-4FF1-BDC6-ED0D1ECDF67C} = {9018B43D-BC07-4B69-9186-4878872D9D1E}
+		{92DF76A2-3EE1-4E94-A913-2047D54DDBC8} = {9018B43D-BC07-4B69-9186-4878872D9D1E}
+		{99AC9587-82E3-440B-AEAD-930BA35A8A6C} = {9018B43D-BC07-4B69-9186-4878872D9D1E}
+		{515905EC-87A5-4471-82FA-831DAB57B31D} = {9018B43D-BC07-4B69-9186-4878872D9D1E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {852B5C73-B331-4D05-80DD-B3D9A2EFBF53}
